@@ -1,19 +1,14 @@
 console.log("Miałem dzisiaj dobry dzień, nie spiernicz tego :D !!");
 let action = document.querySelector(".action");
 let table = document.querySelector(".table");
-let changeColor = document.querySelector(".changeColor");
+let changeTableColor = document.querySelector(".changeTableColor");
 
 action.addEventListener("click", () => {
   table.classList.toggle("table__changeColor");
   if (table.classList.contains("table__changeColor")) {
-    changeColor.innerText = "pierwszy";
+    changeTableColor.innerText = "pierwszy";
   } else {
-    changeColor.innerText = "drugi";
+    changeTableColor.innerText = "drugi";
   }
 });
 
-
-
-
-
-Resources
