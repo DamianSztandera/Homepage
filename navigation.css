@@ -1,0 +1,15 @@
+.navigation {
+    text-align: center;
+    max-width: auto;
+    font-family: "Kalam", sans-serif;
+    font-size: 15px;
+  }
+  .navigation__item {
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 16px -5px rgb(184, 182, 184);
+    background-color: rgb(221, 222, 223);
+    margin: 20px 20px 20px 20px;
+    color: rgb(90, 89, 89);
+    display: inline-block;
+  }

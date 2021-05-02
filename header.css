@@ -1,0 +1,17 @@
+.header {
+    text-align: center;
+    max-width: 1000px;
+    margin: 80px auto;
+    font-family: "Kalam", sans-serif;
+  }
+  .header__title {
+    color: hsla(252, 6%, 15%, 0.616);
+    background-color: rgb(181, 183, 185);
+    max-width: auto;
+    margin: auto;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
