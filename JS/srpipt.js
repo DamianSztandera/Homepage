@@ -1,5 +1,5 @@
 {
-  const Welcome = () => {
+  const welcome = () => {
     console.log("Miałem dzisiaj dobry dzień, nie spiernicz tego :D !!");
     }
     
@@ -17,6 +17,6 @@
     
     action.addEventListener("click", onChangeColorTableClick);
 
-    Welcome();
+    welcome();
     
 }
